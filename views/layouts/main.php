@@ -102,33 +102,11 @@ AppAsset::register($this);
                     </li>
 
                     <li class="">
-                        <a href="#" class="dropdown-toggle">
+                        <a href="<?= Url::to(['temporada/index']) ?>">
                             <i class="menu-icon fa fa-truck"></i>
                             <span class="menu-text"> Temporada </span>
-                            <b class="arrow fa fa-angle-down"></b>
                         </a>
-
                         <b class="arrow"></b>
-
-                        <ul class="submenu">
-                            <li class="">
-                                <a href="<?= Url::to(['temporada/index']) ?>">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Crear Temporadas
-                                </a>
-
-                                <b class="arrow"></b>
-                            </li>
-                        
-                            <li class="">
-                                <a href="<?= Url::to(['tempempleado/asociar']) ?>">
-                                    <i class="menu-icon fa fa-caret-right"></i>
-                                    Asociar Empleados
-                                </a>
-
-                                <b class="arrow"></b>
-                            </li>
-                        </ul>
                     </li>
                     <li class="">
                         <a href="<?= Url::to(['empleado/index']) ?>">
